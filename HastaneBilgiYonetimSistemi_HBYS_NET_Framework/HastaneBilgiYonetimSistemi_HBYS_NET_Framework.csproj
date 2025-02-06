@@ -1,0 +1,908 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98D61BD1-AE15-4C60-8F7B-752B24846706}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HastaneBilgiYonetimSistemi_HBYS_NET_Framework</RootNamespace>
+    <AssemblyName>HastaneBilgiYonetimSistemi_HBYS_NET_Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>C:\Users\yucel\OneDrive\Masaüstü\www\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1F219E5DD62EB5CDF8ADFB1205350602F7D82067</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HastaneBilgiYonetimSistemi_HBYS_NET_Framework_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedPageDragAndDrop">
+      <HintPath>..\..\..\..\..\..\..\DOSYALARIM\Yazılım\Windows Form UI\Krypton-master\Krypton-master\Bin\AdvancedPageDragAndDrop.exe</HintPath>
+    </Reference>
+    <Reference Include="Animator, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Animator.1.0.3\lib\net20\Animator.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.1.5.3.2.0.0\lib\net452\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\..\..\..\DOSYALARIM\Yazılım\Windows Form UI\Krypton-master\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CuoreUI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CuoreUI.Winforms.2024.11.14\lib\netstandard2.0\CuoreUI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v24.1" />
+    <Reference Include="DevExpress.Charts.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v24.1" />
+    <Reference Include="DevExpress.Data.v24.1" />
+    <Reference Include="DevExpress.Office.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v24.1.Export, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v24.1" />
+    <Reference Include="DevExpress.Sparkline.v24.1.Core" />
+    <Reference Include="DevExpress.Utils.v24.1.UI, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.1.UI, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v24.1.Wizard, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v24.1" />
+    <Reference Include="DevExpress.Printing.v24.1.Core" />
+    <Reference Include="DevExpress.Drawing.v24.1" />
+    <Reference Include="DevExpress.XtraGauges.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v24.1.Extensions, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1.Core.Desktop, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\Proje Dosyaları\Özel UI VB\Guna.UI-Framework-Lib-master\Example\Example\bin\Debug\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.4.8.0\lib\net48\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MimeKit, Version=4.8.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.4.8.0\lib\net48\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="ReaLTaiizor, Version=3.8.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReaLTaiizor.3.8.0.9\lib\net48\ReaLTaiizor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.0\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Formats.Asn1, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Formats.Asn1.9.0.0\lib\net462\System.Formats.Asn1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.0\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.0\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.0\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.6.0\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddForm.Designer.cs">
+      <DependentUpon>AdminAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddUpdateDeleteSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddUpdateDeleteSuccessForm.Designer.cs">
+      <DependentUpon>AdminAddUpdateDeleteSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInformationPasswordChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminInformationPasswordChangeForm.Designer.cs">
+      <DependentUpon>AdminInformationPasswordChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanelClosingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanelClosingForm.Designer.cs">
+      <DependentUpon>AdminPanelClosingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanelClosingSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanelClosingSuccessForm.Designer.cs">
+      <DependentUpon>AdminPanelClosingSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanelForm.Designer.cs">
+      <DependentUpon>AdminPanelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanelLoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanelLoadingForm.Designer.cs">
+      <DependentUpon>AdminPanelLoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanelRestartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanelRestartForm.Designer.cs">
+      <DependentUpon>AdminPanelRestartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteAppointmentLoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteAppointmentLoadingForm.Designer.cs">
+      <DependentUpon>DeleteAppointmentLoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralPasswordChangeWarningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralPasswordChangeWarningForm.Designer.cs">
+      <DependentUpon>GeneralPasswordChangeWarningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateForm.Designer.cs">
+      <DependentUpon>AdminUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentAcceptScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentAcceptScreenForm.Designer.cs">
+      <DependentUpon>AppointmentAcceptScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentAcceptWarningScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentAcceptWarningScreenForm.Designer.cs">
+      <DependentUpon>AppointmentAcceptWarningScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentDeleteSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentDeleteSuccessForm.Designer.cs">
+      <DependentUpon>AppointmentDeleteSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentNotFoundForum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentNotFoundForum.Designer.cs">
+      <DependentUpon>AppointmentNotFoundForum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentSuccessForm.Designer.cs">
+      <DependentUpon>AppointmentSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentTimeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentTimeAddForm.Designer.cs">
+      <DependentUpon>AppointmentTimeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentTimeAddUpdateDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentTimeAddUpdateDeleteForm.Designer.cs">
+      <DependentUpon>AppointmentTimeAddUpdateDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentUpdateForm.Designer.cs">
+      <DependentUpon>AppointmentUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApproveDeleteForm.Designer.cs">
+      <DependentUpon>ApproveDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AppointmentDashboard.cs" />
+    <Compile Include="Classes\DoctorAppointmentData.cs" />
+    <Compile Include="Classes\DoctorAvailability.cs" />
+    <Compile Include="Classes\PoliclinicDoctorCategory.cs" />
+    <Compile Include="ConfirmScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmScreenForm.Designer.cs">
+      <DependentUpon>ConfirmScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DarkModeChooseSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DarkModeChooseSuccessForm.Designer.cs">
+      <DependentUpon>DarkModeChooseSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteAppointmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteAppointmentForm.Designer.cs">
+      <DependentUpon>DeleteAppointmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorAddForm.Designer.cs">
+      <DependentUpon>DoctorAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorAddUpdateDeleteSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorAddUpdateDeleteSuccessForm.Designer.cs">
+      <DependentUpon>DoctorAddUpdateDeleteSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDoctorNewPasswordConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDoctorNewPasswordConfirmForm.Designer.cs">
+      <DependentUpon>AdminDoctorNewPasswordConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorPaymentAddUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorPaymentAddUpdateForm.Designer.cs">
+      <DependentUpon>DoctorPaymentAddUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorRestUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorRestUpdateForm.Designer.cs">
+      <DependentUpon>DoctorRestUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorRestDateAddOrUpdateForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorRestDateAddOrUpdateForms.Designer.cs">
+      <DependentUpon>DoctorRestDateAddOrUpdateForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorUpdateForm.Designer.cs">
+      <DependentUpon>DoctorUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailConfirmFalseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailConfirmFalseForm.Designer.cs">
+      <DependentUpon>EmailConfirmFalseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailConfirmSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailConfirmSuccessForm.Designer.cs">
+      <DependentUpon>EmailConfirmSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentRulesWarningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentRulesWarningForm.Designer.cs">
+      <DependentUpon>AppointmentRulesWarningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginLoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginLoadingForm.Designer.cs">
+      <DependentUpon>LoginLoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPasswordSuccesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPasswordSuccesForm.Designer.cs">
+      <DependentUpon>NewPasswordSuccesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotVerifiedClosingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotVerifiedClosingForm.Designer.cs">
+      <DependentUpon>NotVerifiedClosingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordConfirmSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordConfirmSuccessForm.Designer.cs">
+      <DependentUpon>PasswordConfirmSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordResetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordResetForm.Designer.cs">
+      <DependentUpon>PasswordResetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInformationAddUpdateDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInformationAddUpdateDeleteForm.Designer.cs">
+      <DependentUpon>PatientInformationAddUpdateDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInformationPasswordChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInformationPasswordChangeForm.Designer.cs">
+      <DependentUpon>PatientInformationPasswordChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInformationUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientInformationUpdateForm.Designer.cs">
+      <DependentUpon>PatientInformationUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPanelClosingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientPanelClosingForm.Designer.cs">
+      <DependentUpon>PatientPanelClosingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientPanelForm.Designer.cs">
+      <DependentUpon>PatientPanelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPanelLoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientPanelLoadingForm.Designer.cs">
+      <DependentUpon>PatientPanelLoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoliclinicAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoliclinicAddForm.Designer.cs">
+      <DependentUpon>PoliclinicAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoliclinicAddUpdateDeleteSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoliclinicAddUpdateDeleteSuccessForm.Designer.cs">
+      <DependentUpon>PoliclinicAddUpdateDeleteSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataChooseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataChooseForm.Designer.cs">
+      <DependentUpon>DataChooseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoliclinicUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoliclinicUpdateForm.Designer.cs">
+      <DependentUpon>PoliclinicUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterSuccessForm.Designer.cs">
+      <DependentUpon>RegisterSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnToLoginSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnToLoginSuccessForm.Designer.cs">
+      <DependentUpon>ReturnToLoginSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAvailableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAvailableForm.Designer.cs">
+      <DependentUpon>UserAvailableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserNotFoundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserNotFoundForm.Designer.cs">
+      <DependentUpon>UserNotFoundForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminAddForm.resx">
+      <DependentUpon>AdminAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddUpdateDeleteSuccessForm.resx">
+      <DependentUpon>AdminAddUpdateDeleteSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminInformationPasswordChangeForm.resx">
+      <DependentUpon>AdminInformationPasswordChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanelClosingForm.resx">
+      <DependentUpon>AdminPanelClosingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanelClosingSuccessForm.resx">
+      <DependentUpon>AdminPanelClosingSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanelForm.resx">
+      <DependentUpon>AdminPanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanelLoadingForm.resx">
+      <DependentUpon>AdminPanelLoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanelRestartForm.resx">
+      <DependentUpon>AdminPanelRestartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteAppointmentLoadingForm.resx">
+      <DependentUpon>DeleteAppointmentLoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralPasswordChangeWarningForm.resx">
+      <DependentUpon>GeneralPasswordChangeWarningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdateForm.resx">
+      <DependentUpon>AdminUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentAcceptScreenForm.resx">
+      <DependentUpon>AppointmentAcceptScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentAcceptWarningScreenForm.resx">
+      <DependentUpon>AppointmentAcceptWarningScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentDeleteSuccessForm.resx">
+      <DependentUpon>AppointmentDeleteSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentNotFoundForum.resx">
+      <DependentUpon>AppointmentNotFoundForum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentSuccessForm.resx">
+      <DependentUpon>AppointmentSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentTimeAddForm.resx">
+      <DependentUpon>AppointmentTimeAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentTimeAddUpdateDeleteForm.resx">
+      <DependentUpon>AppointmentTimeAddUpdateDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentUpdateForm.resx">
+      <DependentUpon>AppointmentUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApproveDeleteForm.resx">
+      <DependentUpon>ApproveDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmScreenForm.resx">
+      <DependentUpon>ConfirmScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DarkModeChooseSuccessForm.resx">
+      <DependentUpon>DarkModeChooseSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteAppointmentForm.resx">
+      <DependentUpon>DeleteAppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorAddForm.resx">
+      <DependentUpon>DoctorAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorAddUpdateDeleteSuccessForm.resx">
+      <DependentUpon>DoctorAddUpdateDeleteSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDoctorNewPasswordConfirmForm.resx">
+      <DependentUpon>AdminDoctorNewPasswordConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorPaymentAddUpdateForm.resx">
+      <DependentUpon>DoctorPaymentAddUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorRestUpdateForm.resx">
+      <DependentUpon>DoctorRestUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorRestDateAddOrUpdateForms.resx">
+      <DependentUpon>DoctorRestDateAddOrUpdateForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorUpdateForm.resx">
+      <DependentUpon>DoctorUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailConfirmFalseForm.resx">
+      <DependentUpon>EmailConfirmFalseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailConfirmSuccessForm.resx">
+      <DependentUpon>EmailConfirmSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentRulesWarningForm.resx">
+      <DependentUpon>AppointmentRulesWarningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginLoadingForm.resx">
+      <DependentUpon>LoginLoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPasswordSuccesForm.resx">
+      <DependentUpon>NewPasswordSuccesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotVerifiedClosingForm.resx">
+      <DependentUpon>NotVerifiedClosingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordConfirmSuccessForm.resx">
+      <DependentUpon>PasswordConfirmSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordResetForm.resx">
+      <DependentUpon>PasswordResetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInformationAddUpdateDeleteForm.resx">
+      <DependentUpon>PatientInformationAddUpdateDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInformationPasswordChangeForm.resx">
+      <DependentUpon>PatientInformationPasswordChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInformationUpdateForm.resx">
+      <DependentUpon>PatientInformationUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientPanelClosingForm.resx">
+      <DependentUpon>PatientPanelClosingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientPanelForm.resx">
+      <DependentUpon>PatientPanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientPanelLoadingForm.resx">
+      <DependentUpon>PatientPanelLoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoliclinicAddForm.resx">
+      <DependentUpon>PoliclinicAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoliclinicAddUpdateDeleteSuccessForm.resx">
+      <DependentUpon>PoliclinicAddUpdateDeleteSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataChooseForm.resx">
+      <DependentUpon>DataChooseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoliclinicUpdateForm.resx">
+      <DependentUpon>PoliclinicUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterSuccessForm.resx">
+      <DependentUpon>RegisterSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnToLoginSuccessForm.resx">
+      <DependentUpon>ReturnToLoginSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAvailableForm.resx">
+      <DependentUpon>UserAvailableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserNotFoundForm.resx">
+      <DependentUpon>UserNotFoundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="HastaneBilgiYonetimSistemi_HBYS_NET_Framework_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Best.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bannerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctorRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\müdürRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DarkMode\DarkModeOnOff.txt" />
+    <None Include="Resources\sunnyTransparant.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\sb-logo-footer.png" />
+    <None Include="Resources\settingsDark.png" />
+    <None Include="Resources\userDark.png" />
+    <None Include="Resources\price-tagDark.png" />
+    <None Include="Resources\price-tag.png" />
+    <None Include="Resources\policlinicDark21.png" />
+    <None Include="Resources\policlinic21.png" />
+    <None Include="Resources\table-no-data.png" />
+    <None Include="Resources\userAcoountDark.png" />
+    <None Include="Resources\moreDark.png" />
+    <None Include="Resources\right-arrowDark.png" />
+    <None Include="Resources\policlinicDark2.png" />
+    <None Include="Resources\policlinic2.png" />
+    <None Include="Resources\policlinicDark.png" />
+    <None Include="Resources\sonaciklamawhite.png" />
+    <None Include="Resources\sonaciklamadark.png" />
+    <None Include="Resources\policlinic.png" />
+    <None Include="Resources\more.png" />
+    <None Include="Resources\right-arrow.png" />
+    <None Include="Resources\undoBest.png" />
+    <None Include="Resources\search25x25Black1.png" />
+    <None Include="Resources\UpdateRestore.svg" />
+    <None Include="Resources\SubscriptionAdd.svg" />
+    <None Include="Resources\ViewDashboard2.svg" />
+    <None Include="Resources\ViewDashboard1.svg" />
+    <None Include="Resources\ViewDashboard.svg" />
+    <None Include="Resources\warningBest.png" />
+    <None Include="Resources\search25x25White.png" />
+    <None Include="Resources\search25x25Black.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\output-onlinegiftools.gif" />
+    <None Include="Resources\sunnyAdminNew.png" />
+    <None Include="Resources\reset-password1.png" />
+    <None Include="Resources\reset-password.png" />
+    <None Include="Resources\registerSuccessTransparent.gif" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\warningWhite.png" />
+    <None Include="Resources\warningDark.png" />
+    <None Include="Resources\moonwhite3.png" />
+    <None Include="Resources\redError.png" />
+    <None Include="Resources\greenSucces.png" />
+    <None Include="Resources\BannerDark.png" />
+    <None Include="Resources\BannerWhite.png" />
+    <None Include="Resources\check-mail.png" />
+    <None Include="Resources\check-mailDark.png" />
+    <None Include="Resources\check-mailWhite.png" />
+    <None Include="Resources\BannerDark1.png" />
+    <None Include="Resources\BannerWhite1.png" />
+    <None Include="Resources\check-mailDark1.png" />
+    <None Include="Resources\check-mailWhite1.png" />
+    <None Include="Resources\BannerDark2.png" />
+    <None Include="Resources\BannerWhite2.png" />
+    <None Include="Resources\mailNew.png" />
+    <None Include="Resources\icons8-verified-account.gif" />
+    <None Include="Resources\Admin Login.png" />
+    <None Include="Resources\moonadminNew.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\ekle2.png" />
+    <None Include="Resources\check2.png" />
+    <None Include="Resources\check3.png" />
+    <None Include="Resources\check4Uyari.png" />
+    <None Include="Resources\check45BestUyari.png" />
+    <None Include="Resources\check31.png" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\check333.png" />
+    <None Include="Resources\check3best.png" />
+    <None Include="Resources\Bank.svg" />
+    <None Include="Resources\BulletedList.svg" />
+    <None Include="Resources\Delete.svg" />
+    <None Include="Resources\BulletedList1.svg" />
+    <None Include="Resources\Erkek.png" />
+    <None Include="Resources\EMI.svg" />
+    <None Include="Resources\arrowLeftDark.png" />
+    <None Include="Resources\arrowRightDark.png" />
+    <None Include="Resources\doctorsteteskop.png" />
+    <None Include="Resources\doctorsteteskopWhite.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\calendarDark.png" />
+    <None Include="Resources\AppointmentDelete.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\downDark.png" />
+    <None Include="Resources\close-darkMode.png" />
+    <None Include="Resources\checkBest.png" />
+    <None Include="Resources\alternative exit.png" />
+    <None Include="Resources\calendarInformationDark.png" />
+    <None Include="Resources\calendarInformation.png" />
+    <None Include="Resources\alternative exitWhite.png" />
+    <None Include="Resources\arrowLeft.png" />
+    <None Include="Resources\AçıkMod.png" />
+    <None Include="Resources\closewhite.png" />
+    <None Include="Resources\dark-mode.png" />
+    <None Include="Resources\dark.png" />
+    <None Include="Resources\dark1.png" />
+    <None Include="Resources\darkMode.png" />
+    <Content Include="Resources\BestLoading.png" />
+    <None Include="Resources\BestLoading1.png" />
+    <None Include="Resources\clockDark.png" />
+    <None Include="Resources\clockStop.png" />
+    <None Include="Resources\clockWhite.png" />
+    <Content Include="Resources\eye2NEWDark.png" />
+    <Content Include="Resources\eyeHideNewDark.png" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\HastaLoginMiddlePictureDark1.png" />
+    <None Include="Resources\HastaLoginMiddlePictureWhite1.png" />
+    <None Include="Resources\loading1.gif" />
+    <None Include="Resources\loading_d04c %281%29.gif" />
+    <None Include="Resources\left-arrow.png" />
+    <None Include="Resources\Kadın.png" />
+    <None Include="Resources\left-arrowDark.png" />
+    <None Include="Resources\informationRenk.png" />
+    <None Include="Resources\hospitalH.png" />
+    <None Include="Resources\identity-cardDark.png" />
+    <None Include="Resources\mobil_logo.png" />
+    <None Include="Resources\identity-cardWhite.png" />
+    <None Include="Resources\KoyuMod.png" />
+    <None Include="Resources\moonBackTransparant.png" />
+    <None Include="Resources\lightMode.png" />
+    <Content Include="Resources\moonwhite.png" />
+    <None Include="Resources\RegisterWhiteBanner.png" />
+    <None Include="Resources\RegisterDarkBanner.png" />
+    <None Include="Resources\pictureLoading.gif" />
+    <None Include="Resources\moondarkA.png" />
+    <None Include="Resources\sunnybackdark.png" />
+    <None Include="Resources\sunny.png" />
+    <None Include="Resources\moonDark.png" />
+    <None Include="Resources\arrow-rightDark.png" />
+    <None Include="Resources\arrow-right.png" />
+    <None Include="Resources\arrow-leftDark.png" />
+    <None Include="Resources\arrow-left.png" />
+    <None Include="Resources\AdminWhiteMode1.png" />
+    <None Include="Resources\mhrsLogoAdminDarkMod.png" />
+    <None Include="Resources\AdminWhiteMode.png" />
+    <None Include="Resources\doktor-WhiteMode.png" />
+    <None Include="Resources\doktor-DarkMode.png" />
+    <None Include="Resources\emptyPasswordRightIcon.png" />
+    <None Include="Resources\eyeShow.png" />
+    <None Include="Resources\eyeHide.png" />
+    <None Include="Resources\user2.png" />
+    <None Include="Resources\password.png" />
+    <None Include="Resources\user-add.png" />
+    <None Include="Resources\HastaLoginMiddlePictureWhite.png" />
+    <None Include="Resources\HastaLoginMiddlePictureDark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
