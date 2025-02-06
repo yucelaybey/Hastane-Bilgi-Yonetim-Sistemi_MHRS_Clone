@@ -87,5 +87,33 @@
 ![yöneticipanelwhite](https://github.com/user-attachments/assets/7ffef558-7b28-45a4-9dd8-5af3308f9de5)
 ![yöneticipaneldark](https://github.com/user-attachments/assets/056f9a41-42a6-4121-ab47-dbfa3597f805)
 
+### Admin Panel (Yönetici Ekle):
+![AddDark](https://github.com/user-attachments/assets/f4e7ed9c-10a2-4e80-af0a-a9fafe0482bf)
+![AddWhite](https://github.com/user-attachments/assets/65044d73-3b62-44db-9d95-5fd99b171848)
+
+### Admin Panel (Yönetici Güncelle):
+![UpdateWhite](https://github.com/user-attachments/assets/1b9fd256-49b6-47c7-a7b4-b6a2c6979e3b)
+![UpdateDark](https://github.com/user-attachments/assets/707c69cb-39f6-4038-a53b-2b3786e75ba0)
+
+### Admin Panel (Bilgiler) Ana Ekran:
+![myInformationWhite](https://github.com/user-attachments/assets/2c01df10-f2eb-437c-a6b5-4f473d69cc42)
+![myInformationDark](https://github.com/user-attachments/assets/865b1d2e-89f0-4d90-8809-066ff1fea789)
+
+### Admin Panel (Bilgiler - Güncelle) Ana Ekran:
+![updatewhite](https://github.com/user-attachments/assets/47669fed-3665-4b07-a087-396c99620c7d)
+![updatedark](https://github.com/user-attachments/assets/0108c573-fce0-4f29-9746-e0af9bf0ceab)
+
+### Admin Panel (Tema) Ana Ekran:
+![temaWhite](https://github.com/user-attachments/assets/0c136393-bd31-4c78-8b64-3e52fc848b87)
+![temaDark](https://github.com/user-attachments/assets/1a9aed6e-20b6-4040-87af-136a0af62cfe)
+
+
+
+
+
+
+
+
+
 
 
