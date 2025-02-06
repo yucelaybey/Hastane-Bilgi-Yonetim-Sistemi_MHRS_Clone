@@ -1,3 +1,4 @@
+# Windows Forms olarak geliştirilmiştir.
 # BU UYGULAMA BİR PROTOTİP OLUP SADECE KENDİ BİLGİSAYARINIZDA LOCAL OLARAK ÇALIŞMAKTADIR.
 # HBYS(Hastane_Bilgi_Yönetim_Sistemi) ile yönetici, doktor ve hasta girişleri ile 4 ana panel ile proje yapmak istedim. Fakat doktor kısmı şimdilik yok. Login , Admin ve Hasta panelleri mevcuttur.
 
@@ -49,5 +50,32 @@
 
 ![DeleteWhite](https://github.com/user-attachments/assets/cf9dff42-57e4-430c-a516-1a0ed80d7393)
 ![DeleteDark](https://github.com/user-attachments/assets/62a98c22-674c-4e0e-83ff-94859231d0f9)
+
+### Admin Panel (Doktor Ekle - Sil - Güncelle) Ana Ekran:
+![doktorswhite](https://github.com/user-attachments/assets/6652cd77-97b5-44f5-8634-cbdb990b70f6)
+![doktorsdark](https://github.com/user-attachments/assets/4c4f0504-7c49-45ee-a4cf-6f50fc15ecb1)
+
+### Admin Panel (Doktor Ekle):
+![doktorsAddwhite](https://github.com/user-attachments/assets/8fdfc27a-7fcc-46c5-b499-4131e38b4a68)
+![doktorsAdddark](https://github.com/user-attachments/assets/ba52556f-3105-40c7-b465-feb60c3c92e9)
+
+### Admin Panel (Doktor Güncelle):
+![doktorsUpdatewhite](https://github.com/user-attachments/assets/c9d96c31-925a-4a15-ac80-d92c43927c5b)
+![doktorsUpdatedark](https://github.com/user-attachments/assets/b99359a4-a109-4e04-8c4a-6158bba5b664)
+
+### Admin Panel (Doktor Ücret Ekle - Güncelle):
+![doktorsAddUcretwhite](https://github.com/user-attachments/assets/ed0c9996-2ed2-4363-bfc8-9ffcbe59e810)
+![doktorsAddUcretdark](https://github.com/user-attachments/assets/7970d36d-72eb-4751-b756-ed92b136cb4c)
+
+
+
+
+
+
+
+
+
+
+
 
 
