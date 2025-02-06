@@ -1,6 +1,7 @@
 # Windows Forms olarak geliştirilmiştir.
 # BU UYGULAMA BİR PROTOTİP OLUP SADECE KENDİ BİLGİSAYARINIZDA LOCAL OLARAK ÇALIŞMAKTADIR.
 # HBYS(Hastane_Bilgi_Yönetim_Sistemi) ile yönetici, doktor ve hasta girişleri ile 4 ana panel ile proje yapmak istedim. Fakat doktor kısmı şimdilik yok. Login , Admin ve Hasta panelleri mevcuttur.
+# Silme işlemi için tablodan veri yada verileri seçip sil butonuna basmamız yeterlidir.
 
 ## SIRASIYLA PROJE TASARIMLARI ( LİGHT & DARK MODE)
 
@@ -29,7 +30,6 @@
 ![Ekran görüntüsü 2024-12-25 023449](https://github.com/user-attachments/assets/8e12cac9-5e0f-49e7-a347-deeb29e57a70)
 
 ### Admin Panel (Poliklinik Ekle - Sil - Güncelle) Ana Ekran:
-### Silme işlemi için tablodan veri yada verileri seçip sil butonuna basmamız yeterlidir.
 ![panelWhite](https://github.com/user-attachments/assets/09a9be0b-6d94-4b0e-9193-2792f24ad2c3)
 ![panelDark](https://github.com/user-attachments/assets/c4e325c4-7544-4f95-9147-6629d17ca41d)
 
@@ -107,13 +107,89 @@
 ![temaWhite](https://github.com/user-attachments/assets/0c136393-bd31-4c78-8b64-3e52fc848b87)
 ![temaDark](https://github.com/user-attachments/assets/1a9aed6e-20b6-4040-87af-136a0af62cfe)
 
+### Hasta Panel Ana Ekran:
+![anasayfawhite](https://github.com/user-attachments/assets/d2bdac1d-825b-4031-b257-9b67279a7962)
+![anasayfadark](https://github.com/user-attachments/assets/6694d4dd-6082-4f35-b59c-d615d7fe0758)
 
+### Hasta Panel Poliklinik Seç:
+![poliklinksecWhite](https://github.com/user-attachments/assets/3cc688c5-dfd1-4ddb-b402-862a56e0e364)
+![poliklinksecDark](https://github.com/user-attachments/assets/e00f2df7-c68b-4945-b720-ddd0358625a1)
 
+### Hasta Panel Doktor ve Gün Seç:
+![PoliklinikListWhite](https://github.com/user-attachments/assets/dc6dcff4-9035-420e-903c-3553432bfb5c)
+![PoliklinikListDark](https://github.com/user-attachments/assets/9f886027-2878-47c2-ac3a-c63c52ddd137)
 
+### Hasta Panel Saat Seç:
+![SaatSecWhite](https://github.com/user-attachments/assets/92d5b0c0-f108-4b89-aa65-a6fe2b33c5f6)
+![SaatSecDark](https://github.com/user-attachments/assets/a946d226-7e02-4a31-b35d-eef4a6e0cdfe)
 
+### Hasta Panel Geçmiş Randevu:
+![geçmişRandevuWhite](https://github.com/user-attachments/assets/bf4a2e9f-267b-4f43-8d67-774ec18cbbda)
+![geçmişRandevuDark](https://github.com/user-attachments/assets/9737ec98-15d3-4a2c-9e12-9c299bebe4aa)
 
+### Hasta Panel Bilgilerim:
+![informationWhite](https://github.com/user-attachments/assets/b22f66e1-8599-4040-a5f8-b53d8e965381)
+![informationDark](https://github.com/user-attachments/assets/f7df969b-c6d8-4b83-b38f-cbe0f9c3eb88)
 
+### Hasta Panel Tema:
+![temaWhite](https://github.com/user-attachments/assets/77b4026b-d765-424f-bca8-fdbdedbcbf39)
+![temaDark](https://github.com/user-attachments/assets/74c21b45-fbe9-4abf-8e27-ca1efe559cdc)
 
+### DİĞER FORMSLAR
+![EmailConfirmWhite](https://github.com/user-attachments/assets/2da8c397-777b-42de-9308-eab45affb442)
+![EmailConfirmDark](https://github.com/user-attachments/assets/6101fa07-c34a-4529-b31b-e83069714ff3)
 
+![MailConfirmFalseWhite](https://github.com/user-attachments/assets/13308c11-0000-4ada-ba83-18b84a27324f)
+![MailConfirmFalseDark](https://github.com/user-attachments/assets/dbb8daf4-7a04-478e-808e-5f20ff94ab4d)
 
+![MailSuccesDark](https://github.com/user-attachments/assets/7cf2f7f4-ae7a-4680-bea1-eee167e6051f)
+![MailSuccesWhite](https://github.com/user-attachments/assets/86992ecd-f11b-4165-834e-58c4d8830279)
 
+![NewPasswordWhite](https://github.com/user-attachments/assets/073a96fa-ac30-433e-992d-6f7f342c4ef7)
+![NewPasswordDark](https://github.com/user-attachments/assets/864a3195-687b-4e58-a7dc-3dffd8c166ec)
+
+![NewPasswordSuccessWhite](https://github.com/user-attachments/assets/42196f87-c604-4336-b455-bab7b694d629)
+![NewPasswordSuccessDark](https://github.com/user-attachments/assets/d9ece1f9-e2d3-4e80-b2db-433e078fd2a1)
+
+![DogrulamaIptalWhite](https://github.com/user-attachments/assets/174de609-c918-4262-ab47-e3a1a02f51d9)
+![DogrulamaIptalDark](https://github.com/user-attachments/assets/747ff13f-8cd0-4d02-9010-1afd08dda685)
+
+![PanelClosingWhite](https://github.com/user-attachments/assets/80960425-3c1e-4142-a0c6-dc23329ea735)
+![PanelClosingDark](https://github.com/user-attachments/assets/302a04e0-74b7-4220-a086-27be2a16bba8)
+
+![ParolamıUnuttumWhite](https://github.com/user-attachments/assets/d6aa1690-6fd3-4121-90c6-f7aabcf2843b)
+![ParolamıUnuttumDark](https://github.com/user-attachments/assets/b61ccdc9-3d22-4123-8f14-5579adf59202)
+
+![PasswordConfirmWhite](https://github.com/user-attachments/assets/11fc43f1-198f-4c7d-b577-24d1ef3e4431)
+![PasswordConfirmDark](https://github.com/user-attachments/assets/d4449f66-cb97-43bf-a5a9-a7a580863522)
+
+![PasswordConfirmSuccesWhite](https://github.com/user-attachments/assets/ffdf59be-6c9e-4f50-be28-5b285cb82e2c)
+![PasswordConfirmSuccesDark](https://github.com/user-attachments/assets/e843d0f7-abb0-4b02-9a39-1503aed9ce0d)
+
+![RegisterSuccessWhite](https://github.com/user-attachments/assets/c830ee13-995f-4d9b-a954-e9e62749d56c)
+![RegisterSuccessDark](https://github.com/user-attachments/assets/29313a47-ee72-4c6b-af8a-811694d029ac)
+
+![UserAvaibleWhite](https://github.com/user-attachments/assets/73b7ee21-bd71-4af7-9d1d-447acdac387b)
+![UserAvaibleDark](https://github.com/user-attachments/assets/8f05151c-01ba-4259-99fd-e99f27746a38)
+
+![UserNotFoundWhite](https://github.com/user-attachments/assets/0e612b72-f402-4a56-892e-18b794f5f79e)
+![UserNotFoundDark](https://github.com/user-attachments/assets/e06112ab-f831-4959-98e3-b95bcc942da6)
+
+## Eklenenler :
+* Tamamen C# ve Windows Forms ile geliştirilmiştir.
+* Temel Componentler dahil olmak üzere başka eklentiler de kullanılmaktadır.
+* Mail işlemleri mevcuttur. Şifre yenileme, eposta doğrulaması, alınan ve silinen randevu bilgisini mail ile gönderme ve giriş bilgilerini rastgele oluşturup mail yoluyla gönderme mevcuttur.
+*  Ana formslar dışında birçok forms mevcuttur. Düğer formlar yardımcı formslardır. En sonda Diğerleri kısmında gösterilmektedir.
+
+## Website Yaparken Kullandığım Teknolojiler:
+
+* Windows Forms
+* C#
+* MSSQL
+* .Net Framework
+* DevExpress UI
+* Bunifu UI
+* Guna UI
+* Krypton UI
+* MailKit ile Mail Gönderme İşlemleri
+* Tüm CRUD İşlemleri
