@@ -1,6 +1,7 @@
+# BU UYGULAMA BİR PROTOTİP OLUP SADECE KENDİ BİLGİSAYARINIZDA LOCAL OLARAK ÇALIŞMAKTADIR.
 # HBYS(Hastane_Bilgi_Yönetim_Sistemi) ile yönetici, doktor ve hasta girişleri ile 4 ana panel ile proje yapmak istedim. Fakat doktor kısmı şimdilik yok. Login , Admin ve Hasta panelleri mevcuttur.
 
-## SIRASIYLA PROJE TASARIMLARI ( DARK & LİGHT MODE)
+## SIRASIYLA PROJE TASARIMLARI ( LİGHT & DARK MODE)
 
 ### Hasta Login:
 ![HastaLoginWhite](https://github.com/user-attachments/assets/c9f0ab0c-fead-4f2b-b36f-d55b11e7f6bb)
@@ -25,5 +26,28 @@
 ### Admin Panel:
 ![Ekran görüntüsü 2024-12-25 023421](https://github.com/user-attachments/assets/16be921b-7a2d-4cab-9e9f-55d15cf234a6)
 ![Ekran görüntüsü 2024-12-25 023449](https://github.com/user-attachments/assets/8e12cac9-5e0f-49e7-a347-deeb29e57a70)
+
+### Admin Panel (Poliklinik Ekle - Sil - Güncelle) Ana Ekran:
+### Silme işlemi için tablodan veri yada verileri seçip sil butonuna basmamız yeterlidir.
+![panelWhite](https://github.com/user-attachments/assets/09a9be0b-6d94-4b0e-9193-2792f24ad2c3)
+![panelDark](https://github.com/user-attachments/assets/c4e325c4-7544-4f95-9147-6629d17ca41d)
+
+### Admin Panel (Poliklinik Ekle):
+![PoliklinikEkleWhite](https://github.com/user-attachments/assets/c781bd13-57c6-4601-91b6-5856ab1bfa5f)
+![PoliklinikEkleDark](https://github.com/user-attachments/assets/484b630d-e4ad-43c0-b9b9-ddebbfb11f1f)
+
+### Admin Panel (Poliklinik Güncelle):
+![PoliklinikGuncelleWhite](https://github.com/user-attachments/assets/cc3e0071-30bb-4301-9a19-72fa26368e78)
+![PoliklinikGuncelleDark](https://github.com/user-attachments/assets/876923ce-c54b-44f5-8480-b40c5e990f6d)
+
+### Admin Panel (Poliklinik Ekle - Sil - Güncelle) Success Modal:
+![AddWhite](https://github.com/user-attachments/assets/796ac3c2-b19c-4aeb-862a-73b59dd90443)
+![AddDark](https://github.com/user-attachments/assets/8d53f881-0065-4e0b-b8a6-a7004781522d)
+
+![UpdateWhite](https://github.com/user-attachments/assets/34cf9a74-3283-496c-94ab-65f46a7351e3)
+![UpdateDark](https://github.com/user-attachments/assets/0629cedd-c615-4c9c-8e49-a07acee16fcb)
+
+![DeleteWhite](https://github.com/user-attachments/assets/cf9dff42-57e4-430c-a516-1a0ed80d7393)
+![DeleteDark](https://github.com/user-attachments/assets/62a98c22-674c-4e0e-83ff-94859231d0f9)
 
 
