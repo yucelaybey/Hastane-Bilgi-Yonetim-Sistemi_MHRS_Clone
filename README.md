@@ -67,15 +67,25 @@
 ![doktorsAddUcretwhite](https://github.com/user-attachments/assets/ed0c9996-2ed2-4363-bfc8-9ffcbe59e810)
 ![doktorsAddUcretdark](https://github.com/user-attachments/assets/7970d36d-72eb-4751-b756-ed92b136cb4c)
 
+### Admin Panel (Doktor Giriş Bilgilerini Gönderme):
+![girişwhitegonder](https://github.com/user-attachments/assets/7a856e99-b6c8-409c-9615-c89c9863c9c1)
+![girişdarkgonder](https://github.com/user-attachments/assets/d8c81434-67d6-4351-b721-6a6722c8755c)
 
+### Admin Panel (Randevu Saati Ekle - Sil - Güncelle) Ana Ekran:
+![randevupanelwhite](https://github.com/user-attachments/assets/a1c8cfe0-e0b7-4d53-a6b8-2946deb9b68a)
+![randevupaneldark](https://github.com/user-attachments/assets/23642fff-3cbe-40d0-924f-9d77aa3db5d5)
 
+### Admin Panel (Randevu Saati Ekle):
+![randevupanelAddwhite](https://github.com/user-attachments/assets/b757fd59-73c8-4725-bf75-c07a74033cbb)
+![randevupanelAdddark](https://github.com/user-attachments/assets/33dbca36-a0e3-49b8-978c-6fac0ce668d2)
 
+### Admin Panel (Randevu Saati Güncelle):
+![randevupanelUpdatewhite](https://github.com/user-attachments/assets/78ab4511-220d-4b94-87a4-8867292b845b)
+![randevupanelUpdatedark](https://github.com/user-attachments/assets/2fe9e88b-8684-44bb-9364-26a6cbec3335)
 
-
-
-
-
-
+### Admin Panel (Yönetici Ekle - Sil - Güncelle) Ana Ekran:
+![yöneticipanelwhite](https://github.com/user-attachments/assets/7ffef558-7b28-45a4-9dd8-5af3308f9de5)
+![yöneticipaneldark](https://github.com/user-attachments/assets/056f9a41-42a6-4121-ab47-dbfa3597f805)
 
 
 
