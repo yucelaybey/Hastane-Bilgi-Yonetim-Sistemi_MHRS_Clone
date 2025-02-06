@@ -1,5 +1,4 @@
 # Windows Forms olarak geliştirilmiştir.
-# BU UYGULAMA BİR PROTOTİP OLUP SADECE KENDİ BİLGİSAYARINIZDA LOCAL OLARAK ÇALIŞMAKTADIR.
 # HBYS(Hastane_Bilgi_Yönetim_Sistemi) ile yönetici, doktor ve hasta girişleri ile 4 ana panel ile proje yapmak istedim. Fakat doktor kısmı şimdilik yok. Login , Admin ve Hasta panelleri mevcuttur.
 # Silme işlemi için tablodan veri yada verileri seçip sil butonuna basmamız yeterlidir.
 
